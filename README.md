@@ -36,10 +36,38 @@ More generally the functions in `gnnutils.py` for finding global and local assor
 
 <img src="https://raw.githubusercontent.com/susheels/gnns-and-local-assortativity/main/figures/local_assortativity_example.png"/>
 
-## Training WRGAT and WRGCN
+## Pipeline
 
 <img src="https://raw.githubusercontent.com/susheels/gnns-and-local-assortativity/main/figures/wrgat_pipeline.png"/>
 
+## Training WRGAT and WRGCN
+
+To train and evaluate our method which uses structure and proximity information, use the `exp.py` file. For example running `python exp.py --help` provides :
+
+```
+usage: exp.py [-h] --dataset DATASET --model MODEL [--original_edges] [--original_edges_weight ORIGINAL_EDGES_WEIGHT] [--filter_structure_relation] [--filter_structure_relation_number FILTER_STRUCTURE_RELATION_NUMBER] [--run_times RUN_TIMES] [--dims DIMS]
+              [--epochs EPOCHS] [--drop DROP] [--custom_masks] [--st_thres ST_THRES] [--lr LR]
+
+WRGAT/WRGCN (structure + proximity) Experiments
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --dataset DATASET     Dataset
+  --model MODEL         GNN Model
+  --original_edges
+  --original_edges_weight ORIGINAL_EDGES_WEIGHT
+  --filter_structure_relation
+  --filter_structure_relation_number FILTER_STRUCTURE_RELATION_NUMBER
+  --run_times RUN_TIMES
+  --dims DIMS           hidden dims
+  --epochs EPOCHS
+  --drop DROP           dropout
+  --custom_masks        custom train/val/test masks
+  --st_thres ST_THRES   edge weight threshold
+  --lr LR               learning rate
+``` 
+
+Hyperparameter settings are given in the appendix of the paper.
 
 ## Acknowledgements
 
