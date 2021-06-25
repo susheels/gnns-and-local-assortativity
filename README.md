@@ -3,6 +3,7 @@
 ## Introduction
 This repo contains a reference implementation for the ACM SIGKDD 2021 paper "Breaking the Limit of Graph Neural Networks by Improving the Assortativity of Graphs with Local Mixing Patterns".
 The paper is available on [arxiv](https://arxiv.org/abs/2106.06586) and [ACM DL]().
+
 <img src="https://raw.githubusercontent.com/susheels/gnns-and-local-assortativity/main/figures/gnn_local_assortativity.png"/>
 
 ## Requirements and Environment Setup
@@ -36,6 +37,7 @@ More generally the functions in `gnnutils.py` for finding global and local assor
 <img src="https://raw.githubusercontent.com/susheels/gnns-and-local-assortativity/main/figures/local_assortativity_example.png"/>
 
 ## Training WRGAT and WRGCN
+
 <img src="https://raw.githubusercontent.com/susheels/gnns-and-local-assortativity/main/figures/wrgat_pipeline.png"/>
 
 
@@ -46,10 +48,10 @@ The structural similarity measure is based on struc2vec [2] and notion of local 
 ##
 Please cite our paper if you use this code in your own work.
 ```
-@article{suresh2021adversarial,
-  title={Adversarial Graph Augmentation to Improve Graph Contrastive Learning},
-  author={Suresh, Susheel and Li, Pan and Hao, Cong and Neville, Jennifer},
-  journal={arXiv preprint arXiv:2106.05819},
+@article{suresh2021breaking,
+  title={Breaking the Limit of Graph Neural Networks by Improving the Assortativity of Graphs with Local Mixing Patterns},
+  author={Suresh, Susheel and Budde, Vinith and Neville, Jennifer and Li, Pan and Ma, Jianzhu},
+  journal={arXiv preprint arXiv:2106.06586},
   year={2021}
 }
 ```
