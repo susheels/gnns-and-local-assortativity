@@ -4,7 +4,8 @@
 This repo contains a reference implementation for the ACM SIGKDD 2021 paper "Breaking the Limit of Graph Neural Networks by Improving the Assortativity of Graphs with Local Mixing Patterns".
 The paper is available on [arxiv](https://arxiv.org/abs/2106.06586) and [ACM DL]().
 
-<img src="https://raw.githubusercontent.com/susheels/gnns-and-local-assortativity/main/figures/gnn_local_assortativity.png"/>
+## Pipeline
+<img src="https://raw.githubusercontent.com/susheels/gnns-and-local-assortativity/main/figures/wrgat_pipeline.png"/>
 
 ## Requirements and Environment Setup
 Code developed and tested in Python 3.8.8 using PyTorch 1.8. Please refer to their official websites for installation and setup. 
@@ -36,9 +37,7 @@ More generally the functions in `gnnutils.py` for finding global and local assor
 
 <img src="https://raw.githubusercontent.com/susheels/gnns-and-local-assortativity/main/figures/local_assortativity_example.png"/>
 
-## Pipeline
 
-<img src="https://raw.githubusercontent.com/susheels/gnns-and-local-assortativity/main/figures/wrgat_pipeline.png"/>
 
 ## Training WRGAT and WRGCN
 
@@ -68,6 +67,8 @@ optional arguments:
 ``` 
 
 Hyperparameter settings are given in the appendix of the paper.
+
+<img src="https://raw.githubusercontent.com/susheels/gnns-and-local-assortativity/main/figures/gnn_local_assortativity.png"/>
 
 ## Acknowledgements
 
