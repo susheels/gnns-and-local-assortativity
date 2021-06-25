@@ -9,9 +9,18 @@ The paper is available on [arxiv](https://arxiv.org/abs/2106.06586) and [ACM DL]
 
 ## Requirements and Environment Setup
 Code developed and tested in Python 3.8.8 using PyTorch 1.8. Please refer to their official websites for installation and setup. 
-
+GNN models are built using Pytorch Geometric library. Please make sure to install that library first. Information can be found [here](https://github.com/rusty1s/pytorch_geometric).
 Some major requirements are given below.
 ```
+numpy==1.20.1
+torch==1.8.1
+tqdm==4.60.0
+networkx==2.5.1
+six==1.15.0
+fastdtw==0.3.4
+scipy==1.6.2
+scikit-learn==0.24.1
+torch-geometric==1.7.0
 ```
     
 ## Datasets
