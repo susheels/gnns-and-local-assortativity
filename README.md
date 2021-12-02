@@ -1,8 +1,8 @@
-# GNNs and Local Assortativity  - [Paper](https://arxiv.org/abs/2106.06586) | [Slides]() | [Talk]()
+# GNNs and Local Assortativity  - [Paper](https://dl.acm.org/doi/10.1145/3447548.3467373) | [Talk](https://youtu.be/mmI9byg0rj4) | [Poster](https://raw.githubusercontent.com/susheels/gnns-and-local-assortativity/main/figures/kdd2021_poster.pdf)
 
 ## Introduction
 This repo contains a reference implementation for the ACM SIGKDD 2021 paper "Breaking the Limit of Graph Neural Networks by Improving the Assortativity of Graphs with Local Mixing Patterns".
-The paper is available on [arxiv](https://arxiv.org/abs/2106.06586) and [ACM DL]().
+The paper is available on [arxiv](https://arxiv.org/abs/2106.06586) and [ACM DL](https://dl.acm.org/doi/10.1145/3447548.3467373) (open access).
 
 ## Pipeline
 <img src="https://raw.githubusercontent.com/susheels/gnns-and-local-assortativity/main/figures/wrgat_pipeline.png"/>
@@ -86,10 +86,10 @@ The structural similarity measure is based on struc2vec [2] and notion of local 
 ##
 Please cite our paper if you use this code in your own work.
 ```
-@article{suresh2021breaking,
+@article{Suresh2021BreakingTL,
   title={Breaking the Limit of Graph Neural Networks by Improving the Assortativity of Graphs with Local Mixing Patterns},
-  author={Suresh, Susheel and Budde, Vinith and Neville, Jennifer and Li, Pan and Ma, Jianzhu},
-  journal={arXiv preprint arXiv:2106.06586},
+  author={Susheel Suresh and Vinith Budde and Jennifer Neville and Pan Li and Jianzhu Ma},
+  journal={Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery \& Data Mining},
   year={2021}
 }
 ```
